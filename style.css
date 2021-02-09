@@ -1,0 +1,90 @@
+            .portion {
+                display: flex;
+                justify-content: space-around;
+            }
+            
+            #subm {
+                border: none;
+                font-size: 18px;
+                border-radius: 5px;
+                border: 1px solid black;
+                background-color: transparent;
+            }
+            
+            .portiontwo {
+                /* background-color: gray; */
+                /* border: black 1px solid; */
+                display: flex;
+                justify-content: space-around;
+                flex-wrap: wrap;
+            }
+            
+            .mainh1 {
+                font-size: 55px;
+            }
+            
+            .mainh6 {
+                font-size: 15px;
+                letter-spacing: 3px;
+                text-decoration: underline;
+            }
+            
+            .adiv {
+                color: black;
+                text-align: right;
+                margin-left: 2%;
+                position: absolute;
+            }
+            
+            .bdiv {
+                /* background-color: blue; */
+                color: black;
+                text-align: left;
+                margin-left: 31%;
+                text-decoration: underline;
+                position: absolute;
+            }
+            
+            .sdiv {
+                display: flex;
+                justify-content: left;
+                position: absolute;
+                width: 100%;
+            }
+            
+            .maindiv {
+                text-align: center;
+                border: black 1px solid;
+                width: 500px;
+                height: 280px;
+                background: url(jawan.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+                margin: 5px;
+            }
+            
+            .picture {
+                border: black solid 2px;
+                width: 100px;
+                height: 120px;
+                position: absolute;
+                right: 2px;
+                position: absolute;
+            }
+            
+            .pictext {
+                margin-top: 25px;
+            }
+            
+            .foot {
+                background-color: powderblue;
+                height: 43px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 11px;
+                position: absolute;
+                bottom: 0%;
+                width: 100%;
+            }
